@@ -35,7 +35,7 @@ export const personalityTypes: PersonalityType[] = [
       { name: "Reimagining", description: "You envision new possibilities and alternatives" },
       { name: "Creating", description: "You generate original ideas and innovative solutions" }
     ],
-    imageUrl: "/Whats Your Designer Type_Alchemist.png"
+    imageUrl: "https://raw.githubusercontent.com/ggdesigngit/Whats-Your-Designer-Type/c4c42f04b440ff355a0567d3c8956e3f298c7300/03_DesignAlchemist_Single_Front.png"
   },
   {
     id: "type4",
@@ -47,7 +47,7 @@ export const personalityTypes: PersonalityType[] = [
       { name: "Questioning", description: "You ask thoughtful questions to understand deeply" },
       { name: "Influencing", description: "You guide and inspire others through your expertise" }
     ],
-    imageUrl: "/Whats Your Designer Type_Sage.png"
+    imageUrl: "https://raw.githubusercontent.com/ggdesigngit/Whats-Your-Designer-Type/c4c42f04b440ff355a0567d3c8956e3f298c7300/04_DesignSage_Single_Front.png"
   },
   {
     id: "type5",
@@ -59,7 +59,7 @@ export const personalityTypes: PersonalityType[] = [
       { name: "Crafting", description: "You create thoughtful and refined solutions" },
       { name: "Influencing", description: "You guide and inspire others through your expertise" }
     ],
-    imageUrl: "/Whats Your Designer Type_Poet.png"
+    imageUrl: "https://raw.githubusercontent.com/ggdesigngit/Whats-Your-Designer-Type/c4c42f04b440ff355a0567d3c8956e3f298c7300/05_DesignPoet_Single_Front.png"
   },
   {
     id: "type6",
@@ -71,7 +71,7 @@ export const personalityTypes: PersonalityType[] = [
       { name: "Crafting", description: "You create thoughtful and refined solutions" },
       { name: "Creating", description: "You generate original ideas and innovative solutions" }
     ],
-    imageUrl: "/Whats Your Designer Type_Maker.png"
+    imageUrl: "https://raw.githubusercontent.com/ggdesigngit/Whats-Your-Designer-Type/c4c42f04b440ff355a0567d3c8956e3f298c7300/06_DesignMaker_Single_Front.png"
   },
   {
     id: "type7",
@@ -83,7 +83,7 @@ export const personalityTypes: PersonalityType[] = [
       { name: "Adapting", description: "You adjust your approach based on new information" },
       { name: "Persuading", description: "You convince others through compelling communication" }
     ],
-    imageUrl: "/Whats Your Designer Type_Guardian.png"
+    imageUrl: "https://raw.githubusercontent.com/ggdesigngit/Whats-Your-Designer-Type/c4c42f04b440ff355a0567d3c8956e3f298c7300/07_DesignGuardian_Single_Front.png"
   },
   {
     id: "type8",
@@ -95,6 +95,6 @@ export const personalityTypes: PersonalityType[] = [
       { name: "Persuading", description: "You convince others through compelling communication" },
       { name: "Methodical", description: "You follow systematic approaches to problem-solving" }
     ],
-    imageUrl: "/Whats Your Designer Type_Rambler.png"
+    imageUrl: "https://raw.githubusercontent.com/ggdesigngit/Whats-Your-Designer-Type/c4c42f04b440ff355a0567d3c8956e3f298c7300/08_DesignRambler_Single_Front.png"
   }
 ];
