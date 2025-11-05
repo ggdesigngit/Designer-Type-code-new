@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Hanken Grotesk', sans-serif;
+  }
+}
+
+@layer components {
+  .line-clamp-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-lg border border-gray-100;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white px-6 py-3 rounded-lg hover:bg-primary-700 transition-colors font-medium;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-100 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-200 transition-colors font-medium;
+  }
+
+  .option-card {
+    @apply p-4 border-2 border-gray-200 rounded-xl cursor-pointer transition-all duration-200;
+  }
+
+  /* Hover effects only on devices that support hover (non-touch devices) */
+  @media (hover: hover) {
+    .option-card:hover {
+      @apply border-primary-300 bg-primary-50;
+    }
+    
+    .option-card:hover {
+      @apply transform scale-[1.02];
+    }
+  }
+
+  .option-card.selected {
+    @apply border-primary-500 bg-primary-50 shadow-md;
+  }
+
+
+  /* Question Background Classes */
+  .question-bg-1 {
+    background-color: #facad8;
+    background-image: url('/src/assets/Deaigner Type pattern 2.svg');
+    background-size: 180px 180px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-1::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #facad8;
+    background-image: url('/src/assets/Deaigner Type pattern 2.svg');
+    background-size: 180px 180px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    opacity: 0.3;
+    z-index: -1;
+  }
+
+  .question-bg-2 {
+    background-image: url('/question-bg-2.png');
+    background-size: 150px 150px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-3 {
+    background-image: url('/question-bg-3.png');
+    background-size: 180px 180px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-4 {
+    background-image: url('/question-bg-4.png');
+    background-size: 160px 160px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-5 {
+    background-image: url('/question-bg-5.png');
+    background-size: 220px 220px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-6 {
+    background-image: url('/question-bg-6.png');
+    background-size: 140px 140px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-7 {
+    background-image: url('/question-bg-7.png');
+    background-size: 190px 190px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-8 {
+    background-image: url('/question-bg-8.png');
+    background-size: 170px 170px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-9 {
+    background-image: url('/question-bg-9.png');
+    background-size: 210px 210px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-10 {
+    background-image: url('/question-bg-10.png');
+    background-size: 130px 130px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+
+  .question-bg-11 {
+    background-image: url('/question-bg-11.png');
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+}
